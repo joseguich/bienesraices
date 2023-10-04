@@ -38,6 +38,12 @@ h1, h2, h3 {
     
 }
 
+i{
+    font-size: 5rem;
+    color: lighten($grisOscuro, 0);
+    margin: $separacion / 2 0;
+}
+
 h1 {
     font-size: 3.8rem;
 }

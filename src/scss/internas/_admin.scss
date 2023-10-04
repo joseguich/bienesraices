@@ -1,0 +1,83 @@
+.alerta{
+   padding: .8rem;
+   text-align: center;
+   color: $blanco;
+   font-weight: $bold;
+   text-transform: uppercase;
+   margin: 1rem 0;
+
+   &.error{
+      background-color: $rojo;
+
+   }
+
+   &.exito{
+      background-color: $verde;
+   }
+}
+
+table.propiedades{
+   margin-top: 4rem;
+   width: 100%;
+   border-spacing: 0;
+
+   thead{
+      background-color: $verde;
+
+      th{
+         color: $blanco;
+         padding: 1rem;
+      }
+   }
+
+   .imagen-tabla{
+      margin-top: 1rem;
+      width: 20rem;
+   }
+
+   tbody{
+      td{
+         color: $claro;
+         a{
+            display: block;
+            padding: 1rem 2rem;
+            
+         }
+         & a i{
+            font-size: 2rem;
+            padding-left: 2rem;
+            color: $blanco;
+         }
+
+        & form input{
+         padding: 1.5rem 0;
+        }
+      }
+   
+   } 
+   
+}
+
+.imagen-small{
+   
+   width: 40rem;
+}
+
+.direccionar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   & a{
+      font-size: 2rem;
+      display: block;
+      margin-top: 2.5rem;
+      color: $azul;
+      transition: all 0.3s linear;
+   }
+
+   & a:hover{
+      color: #3d8bd0;
+      border-bottom: 1px solid #3d8bd0 ;
+   }
+}   
